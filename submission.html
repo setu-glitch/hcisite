@@ -103,31 +103,67 @@
 					</div>
 					<div class="form-group">
 						<label class="tc-1165">
-							Team Member Name 1
+							1st Team Member Name
 						</label>
-						<input name="Team Member 1" id="name" class="form-control" required>
+						<input name="Team Member 1 Name" id="name" class="form-control" required>
 					</div>
 					<div class="form-group">
 						<label class="tc-1165">
-							Team Member Name 2
+							1st Team Member ID
 						</label>
-						<input name="Team Member 2" id="name" class="form-control" required>
+						<input name="Team Member 1 ID" id="name" class="form-control" required>
 					</div>
 					<div class="form-group">
 						<label class="tc-1165">
-							Team Member Name 3
+							2nd Team Member Name
 						</label>
-						<input name="Team Member 3" id="name" class="form-control" required>
+						<input name="Team Member 2 Name" id="name" class="form-control" required>
 					</div>
 					<div class="form-group">
 						<label class="tc-1165">
-							Team Member Name 4
+							2nd Team Member ID
 						</label>
-						<input name="Team Member 4" id="name" class="form-control" required>
+						<input name="Team Member 2 ID" id="name" class="form-control" required>
 					</div>
 					<div class="form-group">
 						<label class="tc-1165">
-							Email
+							3rd Team Member Name
+						</label>
+						<input name="Team Member 3 Name" id="name" class="form-control" required>
+					</div>
+					<div class="form-group">
+						<label class="tc-1165">
+							3rd Team Member ID
+						</label>
+						<input name="Team Member 3 ID" id="name" class="form-control" required>
+					</div>
+					<div class="form-group">
+						<label class="tc-1165">
+							4th Team Member Name
+						</label>
+						<input name="Team Member 4 Name" id="name" class="form-control" required>
+					</div>
+					<div class="form-group">
+						<label class="tc-1165">
+							4th Team Member ID
+						</label>
+						<input name="Team Member 4 ID" id="name" class="form-control" required>
+					</div>
+					<div class="form-group">
+						<label class="tc-1165">
+							5th Team Member Name (Leave it empty if there is no 5th member.)
+						</label>
+						<input name="Team Member 5 Name" id="name" class="form-control">
+					</div>
+					<div class="form-group">
+						<label class="tc-1165">
+							5th Team Member ID (Leave it empty if there is no 5th member.)
+						</label>
+						<input name="Team Member 4 ID" id="name" class="form-control">
+					</div>
+					<div class="form-group">
+						<label class="tc-1165">
+							Email (Group Leader)
 						</label>
 						<input id="email" class="form-control" type="email" data-error-validation-msg="Not a valid email address" required>
 					</div>
@@ -275,7 +311,7 @@
 		  }, 5000);
 		  form.reset();
 		})
-		.catch((error) => console.error("Error!", error.message));
+		.catch((error) => console.error("Submission Error!", error.message));
 	});
   </script>
 
